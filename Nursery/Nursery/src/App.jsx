@@ -6,6 +6,7 @@ import Wrapper from "./component/Wrapper";
 import Home from "./page/Home";
 import Register from "./page/Register";
 import Login from "./page/Login";
+import Shop from "./page/Shop";
 import { ToastContainer } from "react-toastify";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </Wrapper>
